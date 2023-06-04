@@ -14,8 +14,8 @@ int main(){
         sin >> score;
         if (score > score[k])
         {
-            b = b+1
-        } 
+            b = b+1;
+        }
     }
     cout << b;
 return 0;
