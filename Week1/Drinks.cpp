@@ -1,21 +1,22 @@
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main (){
     int n;
     cin >> n;
-    int a;
+    float a;
     cin >> a;
-    int z = a;
+    float z = a;
 
     for (int i = 1; i < n; i++)
     {
-        int b;
+        float b;
         cin >> b;
         z = z+b; 
     }
     
-    int c = abs(z/n);
-    cout << c;
+    float c =  (z/n);
+    cout << setprecision(12) << c;
     return 0;
 }
  
