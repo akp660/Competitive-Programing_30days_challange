@@ -1,3 +1,3 @@
 # Competitive-Programing
-Daily C++ code challange.
+Daily C++ code challenge 30 days challenge.
 Code force.
